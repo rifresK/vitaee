@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> Portfólio</title>
+</head>
+
+<script src="main.ts"></script>
+
+<body>
+
+    <header>
+        <img class="icon-me" src="img/me.jpg" alt="minha imagem">
+    
+
+        <h1>Luiz Matheus Freski Ribeiro</h1>
+        <p>Suporte de T.I</p>
+
+    </header>
+<div class="center-container">
+    <section id="about">
+        <input type="radio" name="slides" id="slide1" checked>
+        <input type="radio" name="slides" id="slide2">
+        <input type="radio" name="slides" id="slide3">
+
+        <div class="slide-container">
+            <div class="slide">
+                <h2>Sobre Mim</h2>
+                <p>Me chamo Luiz e trabalho com suporte ao usuário, há mais de 1 ano.
+                    <br>
+                    Estou me formando em Analise e Desenvolvimento de Sistemas pela faculdade UniGuairaca 
+                    <br>e atualmente trabalho na MetalKit como auxiliar orçamentista e suporte de t.i
+                </p>
+                <img class="work" src="guarapuava.png" >      Guarapuava-Parana
+                 <br>
+
+            </div>
+
+            <div class="slide">
+                <h2>Linguagens que tenho conhecimento</h2>
+
+                <div class="icon-l">
+                <img class="icon-l1" src="img/Python.png"> Python
+                <img class="icon-l2" src="img/Angular.png">   Angular
+                <img class="icon-l3" src="img/Ionic.png">   Ionic
+                <img class="icon-l5" src="img/Typescript.png">   Typescript
+
+                <img class="icon-l7" src="img/Javascript.png">   Javascript
+
+
+
+                </div>
+                </a>
+                <br>
+                <br>
+                <a>Todo conhecimento que adquiri com as linguagens de programação e marcação foi através da faculdade.
+                    <br>
+
+                </a>
+            </div>
+
+            <div class="slide">
+                <h2>Working</h2>
+                <br>
+                <a>Já trabalhei em outras áreas, como supermercados, transportadora, motorista de aplicativo e suporte técnico.
+                 <br>Na unicentro, eu era estagiario da COORTI, onde basicamente 
+                 fazia todo o trabalho de suporte a funcionários da instituição.
+                 <br>
+                 Caso tenha interesse em visualizar alguns projetos simples que fiz durante a faculdade<br>
+                 basta entrar no meu github <br> <br> <br> <a href="https://github.com/rifresK" target="_blank" class="btn">Acessar Github</a>
+
+
+            </div>
+        </div>
+
+   
+    </section>
+</div>
+   </div>
+
+   <footer>
+    <p>Entre em contato: <span class="copy-email" onclick="copyEmail()">luizmatheus29012003@gmail.com</span></p>
+
+
+<script>
+    function copyEmail() {
+        const email = document.querySelector('.copy-email').innerText;
+        navigator.clipboard.writeText(email)
+            .then(() => {
+                alert('Endereço de e-mail copiado: ' + email);
+            })
+            .catch(err => {
+                console.error('Erro ao copiar: ', err);
+            });
+    }
+</script>
+
+<script src="main.js"></script>
+</div>
+</body>
+        <ul>
+        
+
+        
+
+
+    </footer>
+
+    <script src="main.js"></script>
+    
+    <img class="fundo" src="fundo.jpg">
+   
+</body>
+
+</html>
